@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gnews"
+version = "0.1.0"
+description = ""
+authors = ["Advika101 <hannah13200@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+feedparser = "6.0.2"
+bs4 = "0.0.1"
+beautifulsoup4 = "^4.12.3"
+pymongo = "^4.6.2"
+dnspython = "^2.6.1"
+python-dotenv = "1.0.0"
+requests = "^2.31.0"
+typing-extensions = "^4.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
